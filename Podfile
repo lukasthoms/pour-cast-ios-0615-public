@@ -3,6 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 # Add Application pods here
 pod 'AFNetworking'
+pod 'Masonry'
 target :unit_tests, :exclusive => true do
   link_with 'UnitTests'
   pod 'Specta',     :git=>'git@github.com:specta/specta.git'

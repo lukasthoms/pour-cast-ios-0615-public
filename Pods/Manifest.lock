@@ -1,11 +1,11 @@
 PODS:
   - AFNetworking (2.5.0):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-    - AFNetworking/UIKit
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
   - AFNetworking/NSURLConnection (2.5.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -22,13 +22,14 @@ PODS:
     - AFNetworking/NSURLSession
   - Expecta (0.3.1)
   - KIF (3.0.8):
-    - KIF/XCTest
+    - KIF/XCTest (= 3.0.8)
   - KIF/XCTest (3.0.8)
+  - Masonry (0.6.2)
   - OCHamcrest (4.0.1)
   - OCMockito (1.3.1):
     - OCHamcrest (~> 4.0)
   - OHHTTPStubs (3.1.7):
-    - OHHTTPStubs/Core
+    - OHHTTPStubs/Core (= 3.1.7)
   - OHHTTPStubs/Core (3.1.7)
   - Specta (0.3.0.beta1)
   - Swizzlean (0.2.0)
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - AFNetworking
   - Expecta
   - KIF
+  - Masonry
   - OCMockito
   - OHHTTPStubs
   - Specta (from `git@github.com:specta/specta.git`)
@@ -47,13 +49,14 @@ EXTERNAL SOURCES:
     :git: git@github.com:specta/specta.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  KIF: 2db5e8cf59136dd1267d49cca0d55883389b09d3
-  OCHamcrest: b464725bbb48d0f1cd9c6f4ec3cb35fe0c4f2b94
-  OCMockito: 57b8c4bb54ff3a4a14eb2174f9e57faf9f56efb6
-  OHHTTPStubs: b571bd884ce1ebdbda850ea41674b9fbb9eba667
-  Specta: 63e8ac8e07db6675c7096d37f77a266a1be4c02d
-  Swizzlean: dc03ad1d847a3748f456982b7ede4e3bad4a9630
+  AFNetworking: 96ac9bf3eda33582701cb1fcc5b896aa1e20311e
+  Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
+  KIF: 3c2cb8e66fb216f9c3abcd714699411f0256f767
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  OCHamcrest: a62dbcf4dec9cbf091263d936e0de8dec02baac0
+  OCMockito: 958f33ee8ad03eeb62e1397ef6b60f5121214ca4
+  OHHTTPStubs: a48e52fe6091ad5784714e4c7c034b481c7023bf
+  Specta: d2158a483ad179e5f8d3a29f75ff4fc0ff6fab16
+  Swizzlean: 6ef3e5a33063b7cd99dc39f8c55164dc55d9a021
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.37.1
